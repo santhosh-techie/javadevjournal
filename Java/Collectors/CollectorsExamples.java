@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public class CollectorsExamples {
 
     public static void main(String[] args){
-        System.out.println("*****Examples of different Collectors methods*****");
+        System.out.println("*****Examples of different Collectors methods test*****");
 
         System.out.println("Example of Collectors.toList : ");
         System.out.println(Stream.of(4,3,2,7,1).collect(Collectors.toList()));
